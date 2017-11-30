@@ -75,3 +75,9 @@ gulp.task('watch', ['es6', 'browserSync', 'sass', 'html'], () => {
     gulp.watch([SRC_DIR], ['es6']);
     gulp.watch([HTML_SRC], ['html']);
 });
+
+gulp.task('default', ['watch'], () => {
+    browserSync.reload({
+            stream: true
+        })
+});
