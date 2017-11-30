@@ -1,6 +1,6 @@
-div {
+div, p {
   background: #3bbfce;
   padding: 8px;
   margin: 8px;
   font-size: 16px;
-  color: #3bbfce; }
+  color: red; }
